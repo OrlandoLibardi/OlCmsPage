@@ -1,0 +1,53 @@
+.ol-btn-group {
+	position: absolute;
+	float: left;
+	width: 80px;
+	height: auto;
+	z-index: 9999;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+
+.btn-template {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-bottom: 0;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	widht: 32px;
+	height: 30px;
+}
+
+.btn-template img {
+	display: block;
+	max-width: 15px;
+}
+
+.object-editable {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+/*
+ * V2
+ */
+ body.objects_load{
+	 /* IE 8 */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	 /* IE 5-7 */
+	 filter: alpha(opacity=0);   
+	 /* Netscape */
+	 -moz-opacity: 0;   
+	 /* Safari 1.x */
+	 -khtml-opacity: 0;   
+	 /* Good browsers */
+	 opacity: 0;
+ }

@@ -1,0 +1,29 @@
+{
+    "name": "orlandolibardi/pagebuildcms",
+    "description": "Modulo de interface gráfica para criar ou atualizar páginas",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orlando Libardi",
+            "email": "orlando.libardi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "orlandolibardi/admincms": "dev-master",
+        "orlandolibardi/filescms" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "OrlandoLibardi\\PageBuildCms\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OrlandoLibardi\\PageBuildCms\\app\\Providers\\OlCmsPageServiceProvider"
+            ]
+        }
+    }
+}
